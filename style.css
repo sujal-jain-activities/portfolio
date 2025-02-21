@@ -16,6 +16,10 @@ color: #fff;
     background-color: #00FF7F;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
 }
 h2{
     padding: 10px;
