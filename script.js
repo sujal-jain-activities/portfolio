@@ -9,3 +9,9 @@ var a = document.getElementsByClassName("link").addEventListener("click", functi
         flask = 0
     }
 })
+
+var tl = gsap.timeline()
+tl.to(".sidebar",{
+    right:"0px",
+    duration:1,
+})
