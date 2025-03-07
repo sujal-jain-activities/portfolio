@@ -12,6 +12,7 @@ html, body{
 height: 100%;
 font-family: 'Roboto', sans-serif;
 width: 100%;
+position: absolute;
 scroll-behavior: smooth;
 background-color: #121212;
 color: #fff;
@@ -21,7 +22,7 @@ overflow-x: hidden;
     background-color: #00FF7F;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     z-index: 1000;
     width: 100%;
     top: 0;
@@ -52,7 +53,8 @@ h2{
     top: 0%;
     right: -250px;
     /* color: white; */
-    /* z-index: 1000; */
+    z-index: 1000;
+    border-radius: 20px;
 }
 .sidebarh4{
     font-size: 20px;
@@ -60,7 +62,16 @@ h2{
     display: flex;
     /* position: absolute; */
     padding-left: 10px;
+    padding-top: 40px;
     line-height: 80px;
+}
+ #close{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 5px;
 }
 
 .nav:hover{
@@ -139,7 +150,5 @@ span{
     .aboutme{
         margin: 5vh 5vh;
     }
-    body{
-        overflow-x: hidden;
-    }
+    
 }
